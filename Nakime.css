@@ -481,13 +481,14 @@ a:hover {
 	display: flex
 }
 .scrollSection {
+    padding: 0 !important;
     display: flex;
     justify-content: center;
 }
 
 /* HOVER BOXES */
 .smallhoverbox1 {
-    position: relative; /* REQUIRED: keeps the image anchored to this box */
+    position: relative; 
     float: left;
    background: rgba(29, 2, 2);
     color: #fdfdfd;
@@ -521,7 +522,7 @@ a:hover {
     transform: scale(1);
 }
 .smallhoverbox2 {
-    position: relative; /* important */
+    position: relative; 
     float: left;
     background: rgba(29, 2, 2);
     color: #fdfdfd;
@@ -567,38 +568,20 @@ a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .smallhoverbox1:hover {
 	height: 350px;
 	width: 50.4%;
+    overflow: auto;
 }
-
-
-
 
 .smallhoverbox2:hover {
 	height: 350px;
 	width: 50.4%;
+    overflow: auto;
 }
-
+.smallhoverbox1,
+.smallhoverbox2 {
+    overflow: auto;}
 
 
 
@@ -620,7 +603,7 @@ a:hover {
 
 
 ::-webkit-scrollbar-track {
-	background: #ffffff
+	background: #fff0
 }
 
 
@@ -630,7 +613,7 @@ a:hover {
 
 
 ::-webkit-scrollbar-thumb {
-	background: #000000;
+	background: #fff0;
 	border-radius: 0px
 }
 
