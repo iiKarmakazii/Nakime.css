@@ -703,33 +703,57 @@ div.cave-grid>img:hover /* Pregnant Lionesses */ {
 a[href$="511538"]>div.cave-grid>img /* BO Babies */{
 	content: url('https://i.pinimg.com/1200x/84/72/8e/84728e070e0bbd9fb29b24740e9473ae.jpg') !important
 }
+a[href$="511538"]>div.cave-grid>img:hover /* BO Babies */{
+	content: url('https://media1.tenor.com/m/g9hifAATheQAAAAd/nakime-eye.gif') !important
+}
+
 
 a[href$="443154"]>div.cave-grid>img /* Queens */ {
 	content: url('https://i.pinimg.com/1200x/70/b5/5c/70b55c0786b69e10a1b967252fc484e7.jpg') !important
 }
+a[href$="443154"]>div.cave-grid>img:hover /* Queens */ {
+	content: url('https://media1.tenor.com/m/_AFwedlZ2UgAAAAd/douma-nakime.gif') !important
+}
+
 
 a[href$="457583"]>div.cave-grid>img /* Seal */{
 	content: url('https://i.pinimg.com/1200x/69/23/27/692327bb1b6a04eb88a1234cab1386ce.jpg') !important
 }
+a[href$="457583"]>div.cave-grid>img:hover /* Seal */{
+	content: url('https://media1.tenor.com/m/GfJ2zbttoM4AAAAC/nakime.gif') !important
+}
+
 
 a[href$="518135"]>div.cave-grid>img/* Rosette Galore */ {
 	content: url('https://i.pinimg.com/736x/55/9d/4f/559d4f0c76f609a4a78bb76ed35e4cfa.jpg') !important
 }
+a[href$="518135"]>div.cave-grid>img:hover/* Rosette Galore */ {
+	content: url('https://media1.tenor.com/m/G-8dC2pjwvMAAAAC/nakime-demon-slayer.gif') !important
+}
+
 
 a[href$="518746"]>div.cave-grid>img /* SubMales */{
 	content: url('https://i.pinimg.com/1200x/c8/b9/06/c8b906b7261f30ba6039eadbff0fe167.jpg') !important
+}
+a[href$="518746"]>div.cave-grid>img:hover /* SubMales */{
+	content: url('https://iili.io/fmlP8Ex.gif') !important
 }
 
 
 a[href$="lionoverview.php?id=434227"]>div.cave-grid>img /* Pride Overview */ {
 	content: url('https://i.pinimg.com/1200x/89/a5/52/89a552fbf39f6a2c1e878401fb3e98fc.jpg') !important
 }
+a[href$="lionoverview.php?id=434227"]>div.cave-grid>img:hover /* Pride Overview */ {
+	content: url('https://i.namu.wiki/i/0Qk6TAXqlbXWNXxQY6JfecT4oc0vFa2uMMDDKPqSZPgCkLJnPspni_MmzmgoeE-Q8iRERnR2jCRC1P-Dg7uMWw.gif') !important
+}
 
 
 a[href$="unsorted.php?id=434227"]>div.cave-grid>img /* Unsorted */ {
 	content: url('https://i.pinimg.com/1200x/bf/84/69/bf84699c2cceb62e6f549f36c8b1b54c.jpg') !important
 }
-
+a[href$="unsorted.php?id=434227"]>div.cave-grid>img:hover /* Unsorted */ {
+	content: url('https://media1.tenor.com/m/jyg-RGZcyBQAAAAd/nakime-demon.gif') !important
+}
 
 
 div.mound-grid>img {
