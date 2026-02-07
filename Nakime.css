@@ -1,0 +1,790 @@
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+
+/* FONT (From Google Fonts) */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+
+
+/* BACKGROUND */
+
+
+body {
+	background: url('https://i.pinimg.com/736x/8c/93/6e/8c936ed98cd9cd2e34192511ba809464.jpg') center center fixed;
+	background-size: 100%;
+	font-family: 'Yuji Syuku', serif;
+	color: #b88fca
+}
+
+
+/* MAIN PANEL */
+
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(1, 1, 1, .81);
+	border: 1px double rgba(244, 122, 255, .52);
+    
+	box-shadow: 6px 3px 20px 1px rgba(244, 122, 255, .51);
+	border-radius: 5px
+}
+
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+        border-right: none
+}
+
+
+/* TOPBAR ("Welcome back, ___") */
+
+
+.topbar {
+	background: linear-gradient(to bottom, rgb(230, 75, 243), rgb(89, 13, 99));
+	border: 1px solid #f00;
+	border-top: none;
+	color: #e1ceed;
+    text-shadow: 1px 1px 5px #e91a55;
+	border-radius: 0px 0px 5px 5px;
+}
+
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+
+.navbar {
+	background: linear-gradient(to bottom, #d664c0, rgb(76, 9, 75))!important;
+	border: 1px solid #f00;
+	color: #000;
+    text-shadow: 1px 1px 5px #fb02d7;
+	border-radius: 5px 5px 0px 0px
+}
+
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+
+.navbar li a {
+	color: #e5d0f3 !important
+}
+
+
+/* NAVBAR BUTTON HOVER */
+
+
+.navbar li a:hover {
+	background: rgba(255, 255, 255, 0) !important;
+     font-family: "Yuji Syuku", serif;
+     text-shadow: 1px 1px 5px rgb(0, 0, 0);
+	border-bottom: none;
+    transition: 1s !important;
+	color: #f00 !important;
+	border-radius: 0px
+    
+   
+     
+}
+
+
+/* BREADCRUMB (Home / Den) */
+
+
+.breadcrumb {
+	background: linear-gradient(to bottom, rgb(167, 39, 178), rgb(89, 13, 99));
+    border: 1px solid #f00;
+    text-shadow: 1px 1px 5px #fb02d7;
+	border-radius: 5px
+  
+       
+}
+
+
+/* BREADCRUMB TEXT */
+
+
+.breadcrumb .active {
+	color: #f0ddfc
+}
+
+
+/* CSS CREDIT */
+
+
+.breadcrumb::after {
+        content: "Template (#106445) CSS (#230272)";
+        color: #e1ceed;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+
+/* BOOKMARK BUTTON */
+
+
+input.floatright {
+    background: url(https://iili.io/fbso4yv.png) !important;
+    display:block;
+    height: 70px;
+    width: 70px;
+    overflow:visible;
+    text-indent:-9999em;
+    background-size: 70px 0px !important;
+    margin-top: -20px;
+border: none !important;
+	color: #e1ceed !important;    
+}
+
+
+/* SWITCH ACCOUNT BUTTON */
+
+
+button.button, button.button:hover {
+	background: rgb(131, 48, 130);
+        border: 1.5px solid white;
+	border-radius: 5px;
+        text-shadow: none !important;
+	color: #fff !important
+}
+a.btn.btn-default.button{
+background: rgb(131, 48, 130);
+color: #fff !important;
+    text-shadow: none;
+    border: 1.5px solid white;
+    border-radius: 5px;
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+
+.alert,
+.alert-warning,
+.alert-danger {
+	background: url('https://i.pinimg.com/736x/39/bb/9c/39bb9c9721ccbfed694676185eba1945.jpg')center;
+   text-shadow: 1px 1px 4px rgb(0, 0, 0);
+	border: 1px solid red;
+	color: rgb(255, 255, 255);
+	border-radius: 5px !important
+}
+
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+
+h1 {
+	color: #f1b3e5;
+	font-size: 90px;
+	text-align: center;
+    	font-family: 'Yuji Syuku', serif;
+    text-shadow: 2px 2px 5px #ff07c9;
+}
+
+
+
+
+/* MEDIUM HEADER */
+
+
+h2 {
+	color: #fff;
+	font-size: 24px;
+	text-align: center
+}
+
+
+
+
+/* SMALL HEADER */
+
+
+h3 {
+	color: #f0ddfc !important;
+	font-size: 14px !important
+}
+
+
+/* RIGHT SIDE PANEL HEADER */
+
+
+.sidebar h3 {
+	color: #fffcfc !important;
+        font-size: 26px !important;
+       font-family: 'Yuji Syuku', serif;
+}
+
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: linear-gradient(to bottom, #ff76dd, rgb(131, 48, 130))!important;
+	box-shadow: none !important;
+	border: 1px solid #f00 !important;
+	color: #fff !important;
+    text-shadow: 1px 1px 5px #000;
+	border-radius: 5px
+}
+
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(76, 6, 67, .5);
+	color: #fff !important;
+	border-radius: 5px !important
+}
+
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: #bf7fbd;
+	color: #fff !important;
+	border-radius: 0px !important
+}
+
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #fff !important
+}
+
+
+/* CHAT */
+
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background: #af67aa !important;
+        color: #fff !important;
+	border: none !important
+}
+
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: #af67aa !important;
+        color: #fff !important;
+	border: none !important
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #000 !important;
+        color: #fff !important;
+	border: none !important
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #400303 !important;
+}
+
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #fff !important;
+	border: 1px solid red !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+
+
+/* PANEL BACKGROUND COLOR */
+
+
+.table {
+	background: #00000040;
+	border: 1px solid #ff000082 !important;
+	border-collapse: separate;
+	border-radius: 5px
+}
+
+
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+
+.top,
+.bottom,
+th {
+	background: rgba(1, 1, 1, 0) !important;
+	color: #fff !important;
+	border-radius: 0px
+}
+
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+
+.inner-table .left {
+	background: rgba(154, 114, 143, .5) !important;
+        color: #fff;
+	border-radius: 5px!important
+}
+
+
+
+
+/* Color behind the number of all of the things above */
+
+
+.inner-table .right {
+	background: none;
+	border-radius: 0px !important
+}
+
+
+td.right {
+	border-radius: 0px !important
+}
+
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+
+.cave-grid,
+.mound-grid {
+	background: rgba(1, 1, 1, 0.5);
+	border: 3px double #ff93ff !important;
+	border-radius: 5px !important
+}
+
+
+/* FEED ALL, PLAY ALL */
+
+
+.feature {
+	background: rgba(1, 1, 1, 0.5) !important;
+	color: #fff !important;
+	border: 1px solid #8c1b1b !important;
+	border-radius: 0px !important
+}
+
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+
+.feature,
+div.left {
+	background: rgba(1, 1, 1, 0.5);
+	border: 1px solid #961111;
+	border-radius: 5px !important
+}
+
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+
+.table .left {
+	background: rgba(1, 1, 1, 0.5);
+        border-radius: 0px
+}
+
+
+/* Color behind the content of the elements listed above */
+
+
+input,
+select,
+textarea {
+	background: rgba(1, 1, 1, 0.5) !important;
+	border: 1px solid #f978d9 !important;
+	border-radius: 5px !important;
+	color: #fff !important;
+	box-shadow: none !important;
+	text-shadow: none !important
+}
+
+
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #000000 !important;
+        text-shadow: none !important
+}
+
+
+/* LINK COLOR */
+
+
+a:link,
+a:visited {
+	color: #ffffff !important
+}
+
+
+/* LINK HOVER COLOR */
+
+
+a:hover {
+	color: #ffffff !important
+}
+
+
+
+
+/* BOX CONTAINER */
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex
+}
+.scrollSection {
+    display: flex;
+    justify-content: center;
+}
+
+/* HOVER BOXES */
+.smallhoverbox1 {
+    position: relative; /* REQUIRED: keeps the image anchored to this box */
+    float: left;
+   background: rgba(29, 2, 2);
+    color: #fdfdfd;
+    padding: 5px;
+    border: 1px solid #860101;
+    border-radius: 5px;
+    margin: 10px;
+    height: 65px;
+    width: 50.4%;
+    overflow: visible; 
+    transition: 2s;
+}
+
+.smallhoverbox1:after {
+    content: ""; 
+    position: absolute; 
+    top: -130px;      
+    right: 250px;    
+    width: 250px;
+    height: 250px;
+    background: url("https://iili.io/fmFiS5b.png") no-repeat center;
+    background-size: contain;
+    opacity: 0;
+    transition: 2s;
+    pointer-events: none;
+    z-index: 100; 
+}
+
+.smallhoverbox1:hover:after {
+    opacity: 1;
+    transform: scale(1);
+}
+.smallhoverbox2 {
+    position: relative; /* important */
+    float: left;
+    background: rgba(29, 2, 2);
+    color: #fdfdfd;
+    padding: 5px;
+    border: 1px solid #860101;
+    border-radius: 5px;
+    margin: 10px;
+    height: 65px;
+    width: 50.4%;
+    overflow: visible; 
+    transition: 2s;
+}
+
+.smallhoverbox2::after {
+    content: "";
+    position: absolute;
+    top: -145px;      
+    right: -30px;    
+    width: 150px;
+    height: 150px;
+    background: url("https://iili.io/fbpdwmv.png") no-repeat center;
+    
+    background-size: contain;
+    opacity: 0;
+  pointer-events: none;
+    transition: 2s;
+
+}
+
+.smallhoverbox2:hover::after {
+    opacity: 1;
+    transform: scale(1);
+    
+}
+.smallhoverbox1:hover{
+    border: 1px solid rgb(255, 60, 60);
+    background: rgba(29, 2, 2, .5);
+}
+.smallhoverbox2:hover{
+    border: 1px solid #d664c0;
+    background: rgba(29, 2, 2, .5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.smallhoverbox1:hover {
+	height: 350px;
+	width: 50.4%;
+}
+
+
+
+
+.smallhoverbox2:hover {
+	height: 350px;
+	width: 50.4%;
+}
+
+
+
+
+
+/* SCROLL BAR */
+
+
+/* WIDTH */
+
+
+::-webkit-scrollbar {
+	width: 10px
+}
+
+
+
+
+/* BACKGROUND */
+
+
+::-webkit-scrollbar-track {
+	background: #ffffff
+}
+
+
+
+
+/* "THUMB" */
+
+
+::-webkit-scrollbar-thumb {
+	background: #000000;
+	border-radius: 0px
+}
+
+
+
+
+/* LION AND USER AVATAR OPACITY */
+
+
+div#lion_image {
+	opacity: 1
+}
+
+
+table#player img {
+	opacity: 1
+}
+
+
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 15px; /* May need adjusting */
+	margin-left: 12px /* May need adjusting */
+}
+
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden
+}
+
+
+
+
+/* LIODEN LOGO REPLACER */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://iili.io/fbso4yv.png');
+    position: relative;
+    top: -35px;
+    right: -30px;
+    width: 210px;
+    height: 170px;
+}
+
+
+/* CAVE / MOUND IMAGES */
+
+
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('https://i.pinimg.com/1200x/17/1b/ca/171bca6870b37ce607ee0083b9a7582b.jpg') !important;
+  
+    height: 200px;
+    object-fit: cover;
+}
+div.cave-grid>img:hover /* Pregnant Lionesses */ {
+	content: url('https://i.pinimg.com/736x/1f/56/f2/1f56f2d2d2c28a215c91dd5630f06917.jpg') !important;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+a[href$="511538"]>div.cave-grid>img /* BO Babies */{
+	content: url('https://i.pinimg.com/1200x/84/72/8e/84728e070e0bbd9fb29b24740e9473ae.jpg') !important
+}
+
+a[href$="443154"]>div.cave-grid>img /* Queens */ {
+	content: url('https://i.pinimg.com/1200x/70/b5/5c/70b55c0786b69e10a1b967252fc484e7.jpg') !important
+}
+
+a[href$="457583"]>div.cave-grid>img /* Seal */{
+	content: url('https://i.pinimg.com/1200x/69/23/27/692327bb1b6a04eb88a1234cab1386ce.jpg') !important
+}
+
+a[href$="518135"]>div.cave-grid>img/* Rosette Galore */ {
+	content: url('https://i.pinimg.com/736x/55/9d/4f/559d4f0c76f609a4a78bb76ed35e4cfa.jpg') !important
+}
+
+a[href$="518746"]>div.cave-grid>img /* SubMales */{
+	content: url('https://i.pinimg.com/1200x/c8/b9/06/c8b906b7261f30ba6039eadbff0fe167.jpg') !important
+}
+
+
+a[href$="lionoverview.php?id=434227"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('https://i.pinimg.com/1200x/89/a5/52/89a552fbf39f6a2c1e878401fb3e98fc.jpg') !important
+}
+
+
+a[href$="unsorted.php?id=434227"]>div.cave-grid>img /* Unsorted */ {
+	content: url('https://i.pinimg.com/1200x/bf/84/69/bf84699c2cceb62e6f549f36c8b1b54c.jpg') !important
+}
+
+
+
+div.mound-grid>img {
+    background: url('https://i.pinimg.com/1200x/47/64/aa/4764aa65c19a833c963fdda434f87198.jpg');
+background-size: cover;
+    width: 100%;
+height: 100%;
+padding-top: 80%;
+padding-right: 100%;
+max-height: 150px;
+border-radius: 10px !important;
+}
+
+
+
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		
+    }}
+table#player {
+    background: url('https://i.pinimg.com/736x/98/89/22/988922525895d8ad7d7b9615bbc1a2ac.jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+table#about.table {
+    background: url(https://i.pinimg.com/1200x/f8/98/47/f89847a4146dd2d3d4cce5bd47b08421.jpg)center;
+    background-size: cover;
+    border-radius: 5px; 
+}
+/* Codes made by Pandora #144118 and Moses #95222 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* REMOVE WHITE LINE */
+    hr {
+display:none;
+}
